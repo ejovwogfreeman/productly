@@ -172,13 +172,14 @@ form .btn-warning:focus {
         margin-left: 10px !important;
     }
 
-    .nav {
-        height: 10vh;
-    }
 }
 
 
 @media screen and (max-width: 600px) {
+    .nav {
+        height: 12vh;
+    }
+
     .foot {
         display: block;
         text-align: center;
@@ -204,10 +205,6 @@ form .btn-warning:focus {
     .hero-text p {
         font-weight: normal;
         font-size: 18px;
-    }
-
-    .nav {
-        height: 8vh;
     }
 
     .container .nav .nav-logo {
